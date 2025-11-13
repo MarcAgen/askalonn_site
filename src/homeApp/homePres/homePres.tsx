@@ -4,6 +4,9 @@ import "./homePres.css"
 export function HomePres() {
     return (
         <div>
+            <h1 style={{position: "absolute", marginTop: "150px", marginLeft: "65px", fontSize: "85px"}}>
+                QUI SOMMES<br/>NOUS ?
+            </h1>
             <img aria-hidden src={presImg} className="home-pres-img"/>
         </div>
     )
