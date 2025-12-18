@@ -30,13 +30,13 @@ export function ImagesSlider({images}: ImageSliderProps) {
     }
 
     return (
-        <div style={{width: "100%", height: "100%", position: "relative"}}>
+        <div style={{width: "100%", height: "100%", position: "relative", marginTop: "70px"}}>
             <div style={{width: "100%", height: "100%", display: "flex", overflow: "hidden"}}>
                 {images.map(({ url, alt}) =>
                     <img aria-hidden key={url} alt={alt} src={url} className="img-slider-img" style={{translate: `${-100 * imageIndex}%`}}/>,
                 )}
                 <div className="btn">
-                    <HomeButton props={HOME_BUTTON} />
+                    
                 </div>
             </div>
             <div style={{position: "absolute", bottom: ".5rem", left: "50%", translate: "-50%", display: "flex", gap: ".25rem"}}>

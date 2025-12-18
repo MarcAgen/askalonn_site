@@ -1,8 +1,9 @@
-import slide1 from '../assets/slides/bingo.svg'
-import slide2 from '../assets/slides/casto_mania.svg'
-import slide3 from '../assets/slides/suce.svg'
-import slide4 from '../assets/slides/strange.svg'
-import slide5 from '../assets/slides/sfg.svg'
+import slide1 from '../../assets/slides/bingo.svg'
+import slide2 from '../../assets/slides/casto_mania.svg'
+import slide3 from '../../assets/slides/suce.svg'
+import slide4 from '../../assets/slides/strange.svg'
+import slide5 from '../../assets/slides/sfg.svg'
+import { HeaderApp } from './header/headerApp'
 import { ImagesSlider } from './imagesSlider/ImagesSlider'
 import { HomePres } from './homePres/homePres'
 import './homeApp.css'
@@ -19,6 +20,7 @@ function App() {
   return (
     <>
       <div style={{maxWidth: "1920px", width: "auto", height: "auto", margin: "0 auto", left: 0, top: 0, position: "absolute"}}>
+        <HeaderApp/>
         <ImagesSlider images={IMAGES} />
         <HomePres />
       </div>
