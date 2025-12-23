@@ -1,12 +1,22 @@
+//slide import for slidshow
 import slide1 from '../../assets/slides/bingo.svg'
 import slide2 from '../../assets/slides/casto_mania.svg'
 import slide3 from '../../assets/slides/suce.svg'
 import slide4 from '../../assets/slides/strange.svg'
 import slide5 from '../../assets/slides/sfg.svg'
+
+//import other pages
+import Partnership from "../partership/partnership"
+import Event from "../event/event"
+import About from "../about/about"
+
+//import apps
+import { Routes, Route } from "react-router-dom";
 import { HeaderApp } from './header/headerApp'
 import { ImagesSlider } from './imagesSlider/ImagesSlider'
 import { HomePres } from './homePres/homePres'
 import './homeApp.css'
+
 
 const IMAGES = [
   {url: slide1, alt: "SmashMania Bingo"},
@@ -18,13 +28,18 @@ const IMAGES = [
 
 function App() {
   return (
-    <>
+    <div>
+      <Routes>
+        <Route path="/about" element={<About />} />
+        <Route path="/event" element={<Event />} />
+        <Route path="/partnership" element={<Partnership />} />
+      </Routes>
       <div style={{maxWidth: "1920px", width: "auto", height: "auto", margin: "0 auto", left: 0, top: 0, position: "absolute"}}>
         <HeaderApp/>
         <ImagesSlider images={IMAGES} />
         <HomePres />
       </div>
-    </>
+    </div>
   )
 }
 

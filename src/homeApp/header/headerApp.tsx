@@ -6,7 +6,7 @@ const Logo = () => {
     return (
         <div className="logo-hdr">
             <a href="https://team-askalonn.com/">
-                <img key={logo} src={logo}></img>
+                <img className="logo-header" key={logo} src={logo}></img>
             </a>
         </div>
     )
@@ -15,9 +15,9 @@ const Logo = () => {
 const Nav = () => {
     return (
         <div>
-            <NavLink to="../about">About</NavLink>
-            <NavLink to="../event">Event</NavLink>
-            <NavLink to="../partnership">Partnership</NavLink>
+            <NavLink to="/about">About</NavLink>
+            <NavLink to="/event">Event</NavLink>
+            <NavLink to="/partnership">Partnership</NavLink>
         </div>
     )
 }
@@ -25,8 +25,9 @@ const Nav = () => {
 export function HeaderApp() {
     return (
         <div>
-            <header style={{position: "sticky", top: 0, margin: "auto"}}>
+            <header className="header">
                 <Logo/>
+                <Nav/>
             </header>
         </div>
     )

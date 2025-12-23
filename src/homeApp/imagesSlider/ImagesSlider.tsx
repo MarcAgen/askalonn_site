@@ -30,7 +30,7 @@ export function ImagesSlider({images}: ImageSliderProps) {
     }
 
     return (
-        <div style={{width: "100%", height: "100%", position: "relative", marginTop: "70px"}}>
+        <div style={{width: "100%", height: "100%", position: "relative", marginTop: "20px"}}>
             <div style={{width: "100%", height: "100%", display: "flex", overflow: "hidden"}}>
                 {images.map(({ url, alt}) =>
                     <img aria-hidden key={url} alt={alt} src={url} className="img-slider-img" style={{translate: `${-100 * imageIndex}%`}}/>,

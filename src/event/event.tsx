@@ -1,10 +1,14 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import './index.css'
 
+const Event = () => {
+  return (
+    <h1>Event</h1>
+  )
+}
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <h1>Event</h1>
+    <Event/>
   </StrictMode>,
 )

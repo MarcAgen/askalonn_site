@@ -1,10 +1,14 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import './index.css'
 
+const Partnership = () => {
+  return (
+    <h1>Our Partners</h1>
+  )
+}
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <h1>sponsor</h1>
+    <Partnership/>
   </StrictMode>,
 )
