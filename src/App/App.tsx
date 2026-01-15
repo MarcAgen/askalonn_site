@@ -1,12 +1,12 @@
-import NavBar from "./homeApp/header/headerApp";
+import NavBar from "../componnent/navbar/navbar";
 import { Routes, Route } from "react-router";
 
 //import other pages
-import  HomeApp  from "./homeApp/homeApp";
-import About from "./homeApp/routes/about";
-import Contact from "./homeApp/routes/contact";
-import Event from "./homeApp/routes/event";
-import Partnership from "./homeApp/routes/partnership";
+import  HomeApp  from "../routes/homeApp/homeApp";
+import About from "../routes/about/about";
+import Contact from "../routes/contact/contact";
+import Event from "../routes/event/event";
+import Partnership from "../routes/partnership/partnership";
 
 
 function App () {

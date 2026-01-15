@@ -1,16 +1,14 @@
 //slide import for slidshow
-import slide1 from '../../assets/slides/bingo.svg'
-import slide2 from '../../assets/slides/casto_mania.svg'
-import slide3 from '../../assets/slides/suce.svg'
-import slide4 from '../../assets/slides/strange.svg'
-import slide5 from '../../assets/slides/sfg.svg'
+import slide1 from '../../../assets/slides/bingo.svg'
+import slide2 from '../../../assets/slides/casto_mania.svg'
+import slide3 from '../../../assets/slides/suce.svg'
+import slide4 from '../../../assets/slides/strange.svg'
+import slide5 from '../../../assets/slides/sfg.svg'
 
 //import apps
-import NavBar from './header/headerApp'
-import { ImagesSlider } from './imagesSlider/ImagesSlider'
-import { HomePres } from './homePres/homePres'
+import { ImagesSlider } from '../../componnent/imagesSlider/ImagesSlider'
+import { HomePres } from '../../componnent/homePres/homePres'
 import './homeApp.css'
-
 
 const IMAGES = [
   {url: slide1, alt: "SmashMania Bingo"},
@@ -24,7 +22,7 @@ function HomeApp() {
   return (
     <div>
       <div style={{maxWidth: "1920px", width: "auto", height: "auto", margin: "0 auto", left: 0, top: 0, position: "absolute"}}>
-        <div style={{position: "relative"}}>
+        <div style={{position: "relative", marginTop: "90px", marginBottom: "90px"}}>
           <ImagesSlider images={IMAGES} />
           <HomePres />
         </div>

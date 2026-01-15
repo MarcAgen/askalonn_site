@@ -1,6 +1,5 @@
-import "./headerApp.css"
+import "./navbar.css"
 import logo from "../../../assets/logo_ask.svg"
-import App from "../homeApp"
 import { Link } from "react-router-dom"
 
 const Logo = () => {
