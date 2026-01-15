@@ -1,0 +1,6 @@
+.nav-style {
+  min-height: 70px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-grey-50);
+}

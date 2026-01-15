@@ -1,18 +1,40 @@
 .logo-header {
     height: 60px;
     width: 60px;
-    margin-left: 16px;
+    margin-left: 10px;
+    margin-right: 16rem;
 }
 
-.header {
-    position: sticky;
-    top: 0;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    z-index: 20;
+.navbar {
+    box-shadow: var(--shadow-lg);
+    background-color: rgb(30 41 59);
     display: flex;
-    align-items: left;
-    justify-content: space-between;
-    border: gray;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 18rem;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 1;
+}
+
+.links {
+    padding-top: 1;
+    padding-bottom: 1;
+    padding-left: 3;
+    padding-right: 3;
+    font-size: 20px;
+    line-height: var(--text-lg--line-height);
+    font-weight: 300;
+    color: var(--color-white);
+    border-radius: 15px;
+    transition: background-color 300ms ease-in-out;
+}
+
+.links:hover {
+    color: var(--color-sky-300);
+    background-color: rgb(107, 117, 134);
 }
