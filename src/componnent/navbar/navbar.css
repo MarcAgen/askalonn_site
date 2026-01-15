@@ -3,6 +3,11 @@
     width: 60px;
     margin-left: 10px;
     margin-right: 16rem;
+    transition: filter 300ms;
+}
+
+.logo-header:hover {
+    filter: drop-shadow(0 0 2em #1a26ffaa);
 }
 
 .navbar {
@@ -31,10 +36,9 @@
     font-weight: 300;
     color: var(--color-white);
     border-radius: 15px;
-    transition: background-color 300ms ease-in-out;
+    transition: filter 100ms ease-in-out;
 }
 
 .links:hover {
-    color: var(--color-sky-300);
-    background-color: rgb(107, 117, 134);
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 255));
 }

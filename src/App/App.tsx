@@ -1,4 +1,5 @@
 import NavBar from "../componnent/navbar/navbar";
+import Footer from "../componnent/footer/footer";
 import { Routes, Route } from "react-router";
 
 //import other pages
@@ -13,6 +14,7 @@ function App () {
     return (
         <div className='nav-style'>
             <NavBar/>
+            <Footer/>
             <Routes>
                 <Route path="/" element={<HomeApp/>}/>
                 <Route path="/about" element={<About/>}/>

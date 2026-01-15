@@ -1,0 +1,28 @@
+.footer {
+    background-color: rgb(30 41 59);
+    color: var(--color-white);
+}
+
+.footer-content {
+    background: #1a26ffaa;
+    top: 7;
+    bottom: 7;
+}
+
+@media (width >= 48rem) {
+    :root {
+        padding-left: 3rem;
+        padding-right: 3rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.footer-title {
+
+}
+
+.footer-links {
+
+}
