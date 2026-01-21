@@ -1,5 +1,4 @@
 import NavBar from "../componnent/navbar/navbar";
-import Footer from "../componnent/footer/footer";
 import { Routes, Route } from "react-router";
 
 //import other pages
@@ -8,12 +7,16 @@ import About from "../routes/about/about";
 import Contact from "../routes/contact/contact";
 import Event from "../routes/event/event";
 import Partnership from "../routes/partnership/partnership";
+import LegalMentions from "../routes/legal_mention/legal_mention";
+import Footer from "../componnent/footer/footer";
 
 
 function App () {
     return (
         <div className='nav-style'>
-            <NavBar/>
+            <header>
+                <NavBar/>
+            </header>
             <Footer/>
             <Routes>
                 <Route path="/" element={<HomeApp/>}/>
@@ -21,7 +24,9 @@ function App () {
                 <Route path="/Contact" element={<Contact/>}/>
                 <Route path="/Event" element={<Event/>}/>
                 <Route path="/Partnership" element={<Partnership/>}/>
+                <Route path="/legal_mentions" element={<LegalMentions/>}/>
             </Routes>
+            
         </div>
     );
 }

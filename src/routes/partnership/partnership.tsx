@@ -1,8 +1,8 @@
-import React from "react";
-
 const Partnership = () => {
     return (
-        <div>Partnership</div>
+        <div>
+            <div>Partnership</div>
+        </div>
     );
 }
 

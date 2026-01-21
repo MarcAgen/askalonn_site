@@ -1,5 +1,4 @@
 import presImg from "../../../assets/leny.svg"
-import Footer from "../footer/footer"
 import "./homePres.css"
 
 export function HomePres() {

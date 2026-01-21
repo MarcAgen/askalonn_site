@@ -1,17 +1,10 @@
 import { useEffect, useState } from "react";
-import { HomeButton } from '../homeButton/homeButton'
 import {CircleDot, Circle} from "lucide-react"
 import './ImagesSlider.css'
 
 type ImageSliderProps = {
     images: {url: string, alt: string}[]
 };
-
-const HOME_BUTTON = [
-  {buttonName: "event", href: "../event.html", alt: "event page"},
-  {buttonName: "about", href: "../about.html", alt: "about us page"},
-  {buttonName: "sponsor", href: "../sponsor.html", alt: "sponsor page"}
-]
 
 export function ImagesSlider({images}: ImageSliderProps) {
 
