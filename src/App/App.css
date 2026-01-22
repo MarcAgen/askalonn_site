@@ -5,7 +5,7 @@ html {
 
 .nav-style {
   min-height: 100%;
-  display: grid;
-  grid-template-columns: auto 1fr auto;
+  display: flex;
+  flex-direction: column;
   background-color: var(--color-grey-50);
 }

@@ -14,18 +14,24 @@ import Footer from "../componnent/footer/footer";
 function App () {
     return (
         <div className='nav-style'>
-            <header>
-                <NavBar/>
-            </header>
-            <Routes>
-                <Route path="/" element={<HomeApp/>}/>
-                <Route path="/about" element={<About/>}/>
-                <Route path="/Contact" element={<Contact/>}/>
-                <Route path="/Event" element={<Event/>}/>
-                <Route path="/Partnership" element={<Partnership/>}/>
-                <Route path="/legal_mentions" element={<LegalMentions/>}/>
-            </Routes>
-            <Footer/>
+            <div>
+                <header>
+                    <NavBar/>
+                </header>
+            </div>
+            <div>
+                <Routes>
+                    <Route path="/" element={<HomeApp/>}/>
+                    <Route path="/about" element={<About/>}/>
+                    <Route path="/Contact" element={<Contact/>}/>
+                    <Route path="/Event" element={<Event/>}/>
+                    <Route path="/Partnership" element={<Partnership/>}/>
+                    <Route path="/legal_mentions" element={<LegalMentions/>}/>
+                </Routes>
+            </div>
+            <div>
+                <Footer/>
+            </div>
         </div>
     );
 }
