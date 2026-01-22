@@ -17,7 +17,6 @@ function App () {
             <header>
                 <NavBar/>
             </header>
-            <Footer/>
             <Routes>
                 <Route path="/" element={<HomeApp/>}/>
                 <Route path="/about" element={<About/>}/>
@@ -26,7 +25,7 @@ function App () {
                 <Route path="/Partnership" element={<Partnership/>}/>
                 <Route path="/legal_mentions" element={<LegalMentions/>}/>
             </Routes>
-            
+            <Footer/>
         </div>
     );
 }
