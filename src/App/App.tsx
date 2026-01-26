@@ -13,13 +13,13 @@ import Footer from "../componnent/footer/footer";
 
 function App () {
     return (
-        <div className='nav-style'>
-            <div>
+        <div className='wrapper' style={{width: "100%"}}>
+            <div aria-label="navbar">
                 <header>
                     <NavBar/>
                 </header>
             </div>
-            <div>
+            <div aria-label="routes">
                 <Routes>
                     <Route path="/" element={<HomeApp/>}/>
                     <Route path="/about" element={<About/>}/>
@@ -29,7 +29,7 @@ function App () {
                     <Route path="/legal_mentions" element={<LegalMentions/>}/>
                 </Routes>
             </div>
-            <div>
+            <div aria-label="footer">
                 <Footer/>
             </div>
         </div>

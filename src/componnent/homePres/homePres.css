@@ -1,7 +1,19 @@
 .home-pres-img {
-    position: relative;
     width: 30%;
-    left: 40rem;
-    top: 400px;
-    height: auto;
+}
+
+.title {
+    font-size: "85px";
+    top: 4rem;
+    margin-right: 40rem;
+}
+
+.pres-txt {
+    width: 60%;
+}
+
+.presentation {
+    margin-top: 3rem;
+    justify-content: space-between;
+    display: flex;
 }

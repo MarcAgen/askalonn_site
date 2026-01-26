@@ -1,10 +1,10 @@
 footer {
-    position: sticky; top: 100%;
+    bottom: 0;
+    width: 100%;
+    min-width: 100%;
     background-color: rgb(30 41 59);
     outline: thick solid black;
     outline-width: 1px;
-
-    min-width: 100%;
     left: 0;
     
     /*flex-flow: row;
@@ -12,7 +12,6 @@ footer {
     background-position-x: center;*/
     
     z-index: 2;
-    top: 90%;
     justify-items: center;
     justify-content: space-around;
     flex: 1;
@@ -23,7 +22,7 @@ footer {
 footer > * {
     margin-left: 100px;
     margin-right: 100px;
-}   
+}
 
 .footer-img {
     width: 30px;

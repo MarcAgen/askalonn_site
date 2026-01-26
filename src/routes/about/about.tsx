@@ -1,7 +1,7 @@
 
 const About = () => {
     return (
-        <div>
+        <div style={{marginTop: "90px", marginBottom: "90px"}}>
             <div>About</div>
         </div>
     );

@@ -21,7 +21,7 @@ const IMAGES = [
 function HomeApp() {
   return (
     <div>
-      <div style={{maxWidth: "1920px", width: "auto", height: "auto", margin: "0 auto", left: 0, top: 0, position: "absolute"}}>
+      <div style={{height: "100%", left: 0, top: 0}}>
         <div style={{position: "relative", marginTop: "90px", marginBottom: "90px"}}>
           <ImagesSlider images={IMAGES} />
           <HomePres />
