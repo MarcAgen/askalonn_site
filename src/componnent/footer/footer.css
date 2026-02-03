@@ -6,11 +6,11 @@ footer {
     outline: thick solid black;
     outline-width: 1px;
     left: 0;
-    
+
     /*flex-flow: row;
     margin-bottom: 0%;   
     background-position-x: center;*/
-    
+
     z-index: 2;
     justify-items: center;
     justify-content: space-around;
@@ -25,7 +25,6 @@ footer > * {
 }
 
 .footer-img {
-    width: 30px;
     height: 30px;
     transition: filter 100ms;
     display: flex;

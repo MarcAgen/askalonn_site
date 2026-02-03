@@ -10,7 +10,7 @@ import twitch from "../../../assets/logo_media/twitch_logo.png"
 
 const Footer = () => {
     return (
-            <footer style={{display: "flex", width: "100%"}} aria-label='footer'>
+            <footer style={{display: "flex", width: "100%", justifyContent: "space-between"}} aria-label='footer'>
                 {/* ASK social media */}
                 <div className="footer-img">
                     <div>
