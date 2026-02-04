@@ -1,0 +1,8 @@
+.number {
+    font-size: large;
+    display: flex;
+}
+
+.text {
+    font-size: small;
+}
