@@ -1,22 +1,26 @@
-const keyNum = () => {
-    <div>
-        <div style={{display: "flex", left: 0}}>
-            <p>17</p>
-            <p>événements d’ampleur régionale ou plus</p>
+import "./keyNum.css"
+
+const KeyNum = () => {
+    return (
+        <div style={{marginTop: "40px"}}>
+            <div className="wrapper-left">
+                <p className="number" style={{marginLeft: "50px"}}>17</p>
+                <p>evenements d’ampleur regionale ou plus</p>
+            </div>
+            <div className="wrapper-right">
+                <p className="number" style={{marginRight: "50px"}}>140</p>
+                <p>tournois hebdomadaires</p>
+            </div>
+            <div className="wrapper-left">
+                <p className="number" style={{marginLeft: "50px"}}>416</p>
+                <p>participants pour smashmania</p>
+            </div>
+            <div className="wrapper-right">
+                <p className="number" style={{marginRight: "50px"}}>4</p>
+                <p>lieux d’accueil d’evenements</p>
+            </div>
         </div>
-        <div style={{display: "flex", right: 0}}>
-            <p>tournois hebdomadaires</p>
-            <p>140</p>
-        </div>
-        <div style={{display: "flex", left: 0}}>
-            <p>416</p>
-            <p>participants</p>
-        </div>
-        <div style={{display: "flex", right: 0}}>
-            <p>lieux d’accueil d’événements</p>
-            <p>4</p>
-        </div>
-    </div>
+    )
 }
 
-export default keyNum;
+export default KeyNum;

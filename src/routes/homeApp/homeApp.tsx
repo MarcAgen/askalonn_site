@@ -8,6 +8,7 @@ import slide5 from '../../../assets/slides/sfg.svg'
 //import apps
 import { ImagesSlider } from '../../componnent/imagesSlider/ImagesSlider'
 import { HomePres } from '../../componnent/homePres/homePres'
+import KeyNum from '../../keyNum/keyNum'
 import './homeApp.css'
 
 const IMAGES = [
@@ -25,6 +26,7 @@ function HomeApp() {
         <div style={{position: "relative", marginTop: "90px", marginBottom: "90px"}}>
           <ImagesSlider images={IMAGES} />
           <HomePres />
+          <KeyNum />
         </div>
       </div>
     </div>

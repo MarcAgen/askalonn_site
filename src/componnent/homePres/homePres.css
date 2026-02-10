@@ -1,3 +1,9 @@
+@font-face {
+    font-family: Moderniz;
+    src: url(../../assets/font/Moderniz.otf);
+}
+
+
 .home-pres-img {
     width: 30%;
 }
@@ -6,10 +12,12 @@
     font-size: "85px";
     top: 4rem;
     margin-right: 40rem;
+    font-family: Moderniz;
 }
 
 .pres-txt {
     width: 60%;
+    margin-left: 20px;
 }
 
 .presentation {

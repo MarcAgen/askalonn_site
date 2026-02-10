@@ -1,8 +1,33 @@
+@font-face {
+    font-family: Moderniz;
+    src: url(../../assets/font/Moderniz.otf);
+}
+
 .number {
-    font-size: large;
-    display: flex;
+    font-size: 100px;
 }
 
 .text {
     font-size: small;
+}
+
+.wrapper-left {
+    margin-top: 100px;
+    margin-left: 40px;
+    text-align: start;
+    font-size: 44px;
+    font-family: Moderniz;
+}
+
+.wrapper-right {
+    margin-top: 100px;
+    margin-right: 40px;
+    height: 100%;
+    text-align: end;
+    font-size: 44px;
+    font-family: Moderniz;
+}
+
+p {
+    margin: 0px;
 }
