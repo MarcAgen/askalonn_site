@@ -6,6 +6,14 @@ type ImageSliderProps = {
     images: {url: string, alt: string}[]
 };
 
+
+/*
+    TO ADD/FIX:
+
+    - [FIX] placement of the image selector (dots shouldn't be below the image)
+    - [ADD] adding (clickable ?) Title and description for all images
+*/
+
 export function ImagesSlider({images}: ImageSliderProps) {
 
     const [imageIndex, setImageIndex] = useState(0)

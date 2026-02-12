@@ -2,6 +2,14 @@ import "./navbar.css"
 import logo from "../../../assets/logo_ask.svg"
 import { Link } from "react-router-dom"
 
+
+
+/*
+    TO ADD/FIX:
+
+    - [ADD] make the navbar retractable if you scroll down
+*/
+
 const Logo = () => {
     return (
         <div className="logo-hdr">

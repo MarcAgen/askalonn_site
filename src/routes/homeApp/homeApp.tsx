@@ -8,7 +8,7 @@ import slide5 from '../../../assets/slides/sfg.svg'
 //import apps
 import { ImagesSlider } from '../../componnent/imagesSlider/ImagesSlider'
 import { HomePres } from '../../componnent/homePres/homePres'
-import KeyNum from '../../keyNum/keyNum'
+import KeyNum from '../../componnent/keyNum/keyNum'
 import './homeApp.css'
 
 const IMAGES = [
